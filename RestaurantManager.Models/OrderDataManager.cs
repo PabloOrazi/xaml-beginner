@@ -26,7 +26,7 @@ namespace RestaurantManager.Models
                 if ( value != _menuItems)
                 {
                     _menuItems = value;
-                    this.OnPropertyChanged(); 
+                    OnPropertyChanged(); 
                 }
             }
         }
