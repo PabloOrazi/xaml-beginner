@@ -38,7 +38,7 @@
                         <ListBox Grid.Row="0" ItemsSource="{Binding Items}" >
                             <ListBox.ItemTemplate>
                                 <DataTemplate>
-                                    <TextBlock Text="{Binding Title}" Style="{StaticResource SubtitleTextBlockStyle}" />
+                                    <TextBlock Text="{Binding Title}" Style="{StaticResource SubtitleTextBlockStyle}" TextWrapping="NoWrap"/>
                                 </DataTemplate>
                             </ListBox.ItemTemplate>
                         </ListBox>
